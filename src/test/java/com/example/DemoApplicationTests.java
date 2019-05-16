@@ -21,7 +21,6 @@ public class DemoApplicationTests {
 	@Test
     public void shouldAnswerWithTrue()
     {
-        PropertyConfigurator.configure("log4j.properties");
         BasicConfigurator.configure();
         logger.debug("Hello toto*****************************************************************************************************************************************************************************************************");
         assertTrue( true );
