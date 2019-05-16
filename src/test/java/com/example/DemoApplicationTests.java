@@ -24,6 +24,7 @@ public class DemoApplicationTests {
 	@Test
     public void shouldAnswerWithTrue()
     {
+	BasicConfigurator.configure();
         BasicConfigurator.configure();
         logger.debug("Hello toto*****************************************************************************************************************************************************************************************************");
         logger.debug("Hello toto**************************************************************");
