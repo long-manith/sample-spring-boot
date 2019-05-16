@@ -30,7 +30,7 @@ public class DemoApplicationTests {
     public Integer additionner (Integer a, Integer b)
   {
  		Integer somme;
- 		somme = a + b;
+ 		somme = a - b;
 		System.out.println("a = " + a + ", b = " + b);
 		System.out.println("La somme vaut " + somme);
                 return somme;
