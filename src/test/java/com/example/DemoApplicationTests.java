@@ -25,6 +25,6 @@ public class DemoApplicationTests {
     {
         BasicConfigurator.configure();
         logger.debug("Hello toto**************************************************************");
-        assertTrue( true );
+        assertTrue( false );
     }
 }
