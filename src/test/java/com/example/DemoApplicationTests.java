@@ -14,6 +14,7 @@ import org.apache.log4j.PropertyConfigurator;
 @RunWith(SpringRunner.class)
 @SpringBootTest
 public class DemoApplicationTests {
+	static final Logger logger = Logger.getLogger(DemoApplicationTests.class);
 
 	@Test
 	public void contextLoads() {
